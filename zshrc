@@ -67,9 +67,6 @@ antigen bundle Tarrasch/zsh-autoenv
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
 
-# For SSH, starting ssh-agent is annoying
-antigen bundle ssh-agent
-
 # Node Plugins
 antigen bundle coffee
 antigen bundle node

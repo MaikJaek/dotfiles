@@ -33,6 +33,7 @@ alias rename_files_to_md5="/usr/local/bin/md5sum * | gsed -e 's/\([^ ]*\) \(.*\(
 alias Code="cd ~/Code"
 alias Dot="cd ~/.dotfiles/"
 alias aliases="$EDITOR ~/.dotfiles/shell/aliases.sh"
+alias fresh="~/.bin/fresh"
 alias refresh="fresh && source ~/.zshrc"
 alias zshrc="$EDITOR ~/.dotfiles/zshrc"
 alias freshrc="$EDITOR ~/.dotfiles/freshrc"
@@ -151,7 +152,3 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
-
-# Pipe my public key to my clipboard.
-alias pubkey_me="more ~/.ssh/alexander.jaeger.me.com.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
-alias pubkey_xsite="more ~/.ssh/a.jaeger.xsite.de.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
