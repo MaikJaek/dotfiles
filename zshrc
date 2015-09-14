@@ -1,14 +1,3 @@
-#
-# OS Detection
-#
-
-UNAME=`uname`
-
-# Fallback info
-DISTRO=''
-
-CURRENT_OS='OS X'
-
 # Use zsh-completions if it exists
 if [[ -d "/usr/local/share/zsh-completions" ]]; then
     fpath=(/usr/local/share/zsh-completions $fpath)
