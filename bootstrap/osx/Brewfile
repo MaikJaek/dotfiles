@@ -33,6 +33,7 @@ brew 'fig'
 
 # bin
 brew 'node'
+brew 'npm'
 brew 'packer'
 
 # casks
