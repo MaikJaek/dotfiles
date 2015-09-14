@@ -1,0 +1,26 @@
+# freshshell.com
+#
+# See http://freshshell.com/readme for documentation.
+
+fresh freshshell/fresh bin/fresh --bin=~/.bin/fresh
+
+fresh shell/env.sh
+fresh gitconfig --file
+fresh zshrc --file
+fresh vimrc --file
+
+# aliases
+fresh shell/aliases.sh
+
+# antigen
+fresh zsh-users/antigen antigen.zsh --file=~/.antigen.zsh
+
+# vim
+fresh tpope/vim-pathogen autoload/pathogen.vim --file=~/.vim/autoload/pathogen.vim
+fresh tpope/vim-sensible plugin/sensible.vim --file=~/.vim/bundle/plugin/sensible.vim
+fresh altercation/vim-colors-solarized colors/solarized.vim --file=~/.vim/colors/solarized.vim
+
+# Sublime 3
+fresh bootstrap/apps/sublime-3/packages/user/Preferences.sublime-settings --file=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+fresh bootstrap/apps/sublime-3/packages/user/FreeMarker.sublime-settings --file=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/FreeMarker.sublime-settings
+fresh bootstrap/apps/sublime-3/packages/user/HTML.sublime-settings --file=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/HTML.sublime-settings

@@ -1,0 +1,60 @@
+# Zsh
+brew 'zsh'
+brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
+
+# unix utils
+brew 'binutils'
+brew 'findutils'
+brew 'gnu-sed'
+brew 'gnutls'
+brew 'htop-osx'
+brew 'docker'
+brew 'nmap'
+brew 'unrar'
+brew 'watch'
+brew 'wget'
+brew 'md5sha1sum'
+
+# ruby
+brew 'rbenv'
+brew 'ruby-build'
+
+# build
+brew 'autoconf'
+brew 'automake'
+brew 'coreutils'
+brew 'diffutils'
+brew 'cmake'
+
+# ansible
+brew 'ansible'
+brew 'fig'
+
+# bin
+brew 'node'
+brew 'packer'
+
+# casks
+brew 'caskroom/cask/brew-cask'
+brew 'brew-cask'
+
+# apps
+cask 'appcleaner'
+cask 'cinch'
+cask 'diffmerge'
+cask 'google-chrome'
+cask '1password'
+cask 'iterm2'
+cask 'mindnode-pro'
+# install from appstore
+cask 'sequel-pro'
+cask 'skype'
+cask 'virtualbox'
+cask 'vagrant'
+cask 'hipchat'
+cask 'java'
+
+# install fonts
+tap 'caskroom/fonts'
+cask 'font-inconsolata-dz-for-powerline'
