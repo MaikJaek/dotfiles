@@ -1,8 +1,8 @@
-# [fresh] ~/.dotfiles
+# [fresh] .dotfiles
 
-My dotfiles are managed by [fresh].
+Keep your dotfiles fresh. http://freshshell.com/
 
-Many thx to [lxhunter] for forking!
+Many thx to [lxhunter]!
 
 [fresh]: https://github.com/freshshell/fresh
 [lxhunter]: https://github.com/lxhunter/dotfiles
