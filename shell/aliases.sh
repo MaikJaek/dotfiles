@@ -21,9 +21,13 @@ alias ubuntu_latest='docker run -it --rm=true ubuntu bash'
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias hosts="sudo $EDITOR /etc/hosts"
 
+# Directories
+alias code="~/Development/"
+alias projects="~/Development/projects"
+alias libs="cd ~/Development/libs"
+alias dot="cd ~/.dotfiles/"
+
 # Helper
-alias Code="cd ~/Development"
-alias Dot="cd ~/.dotfiles/"
 alias aliases="$EDITOR ~/.dotfiles/shell/aliases.sh"
 alias fresh="~/.bin/fresh"
 alias refresh="fresh && source ~/.zshrc"
