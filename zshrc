@@ -16,35 +16,22 @@ antigen bundle robbyrussell/oh-my-zsh lib/
 #
 # Load Theme
 #
-antigen theme agnoster
+#antigen theme agnoster
+antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
 
 #
 # Antigen Bundles
 #
 
-antigen bundle autojump
-antigen bundle command-not-found
-antigen bundle common-aliases
-antigen bundle copydir
-antigen bundle copyfile
-antigen bundle cp
 antigen bundle docker
 antigen bundle git
 antigen bundle git-extras
 antigen bundle git-flow
-antigen bundle gnu-utils
-antigen bundle rbenv
-antigen bundle rsync
-antigen bundle rupa/z
-antigen bundle screen
-antigen bundle sudo
 antigen bundle Tarrasch/zsh-autoenv
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
 
 # Node Plugins
-antigen bundle coffee
-antigen bundle node
 antigen bundle npm
 
 # Python Plugins
