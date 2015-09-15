@@ -11,7 +11,7 @@ brew 'unrar'
 brew 'watch'
 brew 'wget'
 brew 'md5sha1sum'
-cask 'ngrep'
+brew 'ngrep'
 
 # ruby
 brew 'rbenv'
@@ -37,18 +37,28 @@ brew 'brew-cask'
 cask 'google-chrome'
 cask '1password'
 cask 'iterm2'
-
-# install from appstore
+cask 'sourcetree'
+cask 'eclipse-jee'
+cask 'mamp'
+cask 'evernote'
+cask 'moom'
 cask 'sequel-pro'
 cask 'skype'
 cask 'virtualbox'
 cask 'vagrant'
 cask 'hipchat'
-cask 'java'
+cask 'kindle'
+
+tap 'caskroom/homebrew-versions'
+cask 'sublime-text3'
+cask 'firefox-de'
 
 # install fonts
-tap 'caskroom/fonts'
-cask 'font-inconsolata-dz-for-powerline'
+tap 'caskroom/homebrew-fonts'
+cask 'font-hack'
+cask 'font-abel'
+cask 'font-aclonica'
 
 #XSITE Tools
+cask 'java'
 brew 'elasticsearch'
