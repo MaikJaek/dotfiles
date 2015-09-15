@@ -59,6 +59,10 @@ cask 'font-hack'
 cask 'font-abel'
 cask 'font-aclonica'
 
-#XSITE Tools
+# Dev Tools
+brew 'groovy'
+brew 'grails'
+
+# XSITE Tools
 cask 'java'
 brew 'elasticsearch'
