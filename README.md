@@ -1,6 +1,6 @@
 # [fresh] .dotfiles
 
-Keep your dotfiles [fresh]. http://freshshell.com
+Keep your dotfiles [fresh].
 
 Many thx to [lxhunter]!
 
