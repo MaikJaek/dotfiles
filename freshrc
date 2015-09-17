@@ -4,13 +4,14 @@
 
 fresh freshshell/fresh bin/fresh --bin=~/.bin/fresh
 
-fresh shell/env.sh
 fresh gitconfig --file
 fresh zshrc --file
 fresh vimrc --file
 
-# aliases
+# shell
+fresh shell/env.sh
 fresh shell/aliases.sh
+fresh shell/elasticsearch-plugins.sh
 
 # antigen
 fresh zsh-users/antigen antigen.zsh --file=~/.antigen.zsh
