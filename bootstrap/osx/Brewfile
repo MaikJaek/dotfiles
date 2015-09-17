@@ -4,14 +4,10 @@ brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 
 # unix utils
-brew 'htop-osx'
 brew 'docker'
 brew 'nmap'
 brew 'unrar'
-brew 'watch'
 brew 'wget'
-brew 'md5sha1sum'
-brew 'ngrep'
 
 # ruby
 brew 'rbenv'
@@ -65,4 +61,8 @@ brew 'grails'
 
 # XSITE Tools
 cask 'java'
+brew 'maven'
 brew 'elasticsearch'
+brew 'typesafe-activator'
+
+

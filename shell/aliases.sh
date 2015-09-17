@@ -7,7 +7,8 @@ alias ip='curl curlmyip.com'
 alias ll="ls -alG"
 alias cls="clear"
 alias ..='cd ..'
-alias ...='cd ../../../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
 alias cd..='cd ..'
 
 alias docker_boot='/Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh'
@@ -24,8 +25,11 @@ alias hosts="sudo $EDITOR /etc/hosts"
 # Directories
 alias code="~/Development/"
 alias projects="~/Development/projects"
+alias testing="~/Development/testing"
 alias libs="cd ~/Development/libs"
 alias dot="cd ~/.dotfiles/"
+alias desktop="cd ~/Desktop"
+alias downloads="cd ~/Downloads"
 
 # Helper
 alias aliases="$EDITOR ~/.dotfiles/shell/aliases.sh"
