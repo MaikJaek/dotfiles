@@ -12,12 +12,13 @@ alias ....='cd ../../../'
 alias cd..='cd ..'
 
 alias docker_boot='/Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh'
-alias docker_env='eval $(docker-machine env default)'
+alias docker_show_env='docker-machine env default'
+alias docker_set_env='eval $(docker-machine env default)'
+alias docker_ip='docker-machine ip default'
 alias docker_stop_all='docker stop $(docker ps -a -q)'
 alias docker_remove_all='docker stop $(docker ps -a -q)'
-alias debian_latest='docker run -it --rm=true debian bash'
-alias ubuntu_latest='docker run -it --rm=true ubuntu bash'
 
+alias docker_machine_create='docker-machine create --virtualbox-memory "8192" --driver virtualbox '
 
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias hosts="sudo $EDITOR /etc/hosts"
@@ -27,11 +28,12 @@ alias code="~/Development/"
 alias projects="~/Development/projects"
 alias testing="~/Development/testing"
 alias libs="cd ~/Development/libs"
-alias dot="cd ~/.dotfiles/"
+alias dotfiles="cd ~/.dotfiles/"
 alias desktop="cd ~/Desktop"
 alias downloads="cd ~/Downloads"
 
 # Helper
+alias dots="$EDITOR ~/.dotfiles"
 alias aliases="$EDITOR ~/.dotfiles/shell/aliases.sh"
 alias fresh="~/.bin/fresh"
 alias refresh="fresh && source ~/.zshrc"

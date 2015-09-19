@@ -4,7 +4,6 @@ brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 
 # unix utils
-brew 'docker'
 brew 'nmap'
 brew 'unrar'
 brew 'wget'
@@ -39,11 +38,14 @@ cask 'mamp'
 cask 'evernote'
 cask 'moom'
 cask 'sequel-pro'
+cask 'tunnelblick'
 cask 'skype'
 cask 'virtualbox'
 cask 'vagrant'
 cask 'hipchat'
+cask 'adobe-creative-cloud'
 cask 'kindle'
+cask 'sts'
 
 tap 'caskroom/homebrew-versions'
 cask 'sublime-text3'
@@ -58,6 +60,9 @@ cask 'font-aclonica'
 # Dev Tools
 brew 'groovy'
 brew 'grails'
+brew 'docker'
+brew 'docker-compose'
+brew 'docker-machine'
 
 # XSITE Tools
 cask 'java'
