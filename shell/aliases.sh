@@ -26,7 +26,7 @@ alias hosts="sudo $EDITOR /etc/hosts"
 # Directories
 alias code="~/Development/"
 alias projects="~/Development/projects"
-alias testing="~/Development/testing"
+alias prototyping="~/Development/prototyping"
 alias libs="cd ~/Development/libs"
 alias dotfiles="cd ~/.dotfiles/"
 alias desktop="cd ~/Desktop"
