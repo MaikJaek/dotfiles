@@ -43,7 +43,8 @@
 		"data/cloudStorage",
 		"data/itemIndex",
 		"node_modules",
-		"cache"
+		"cache",
+		".metadata"
 	],
 	"font_face": "Hack",
 	"font_size": 10,

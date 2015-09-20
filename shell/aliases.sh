@@ -12,18 +12,16 @@ alias ....='cd ../../../'
 alias cd..='cd ..'
 
 alias docker_boot='/Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh'
-alias docker_show_env='docker-machine env default'
-alias docker_set_env='eval $(docker-machine env default)'
-alias docker_ip='docker-machine ip default'
+
+alias docker_ip='docker-machine ip '
 alias docker_stop_all='docker stop $(docker ps -a -q)'
 alias docker_remove_all='docker stop $(docker ps -a -q)'
 
-alias docker_do_create='docker-machine create --driver digitalocean --digitalocean-access-token=$DIGITALOCEAN_ACCESS_TOKEN --digitalocean-region fra1 --digitalocean-size 2gb '
-alias docker_machine_create='docker-machine create --virtualbox-memory "8192" --driver virtualbox '
+alias docker_machine_create_local='docker-machine create --virtualbox-memory "8192" --driver virtualbox '
+alias docker_machine_create_do='docker-machine create --driver digitalocean --digitalocean-access-token=$DIGITALOCEAN_ACCESS_TOKEN --digitalocean-region fra1 --digitalocean-size 2gb '
 
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias hosts="sudo $EDITOR /etc/hosts"
-
 
 # Directories
 alias code="~/Development/"
