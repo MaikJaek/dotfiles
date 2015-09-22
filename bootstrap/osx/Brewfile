@@ -46,6 +46,7 @@ cask 'hipchat'
 cask 'adobe-creative-cloud'
 cask 'kindle'
 cask 'sts'
+cask 'mongohub'
 
 tap 'caskroom/homebrew-versions'
 cask 'sublime-text3'
@@ -58,6 +59,7 @@ cask 'font-abel'
 cask 'font-aclonica'
 
 # Dev Tools
+brew 'mongodb'
 brew 'groovy'
 brew 'grails'
 brew 'docker'

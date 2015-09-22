@@ -21,6 +21,7 @@ fresh altercation/vim-colors-solarized colors/solarized.vim --file=~/.vim/colors
 
 # Sublime 3
 fresh bootstrap/apps/sublime-3/packages/user/Preferences.sublime-settings --file=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+fresh bootstrap/apps/sublime-3/packages/user/SublimeLinter.sublime-settings --file=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings
 fresh bootstrap/apps/sublime-3/packages/user/FreeMarker.sublime-settings --file=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/FreeMarker.sublime-settings
 fresh bootstrap/apps/sublime-3/packages/user/HTML.sublime-settings --file=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/HTML.sublime-settings
 

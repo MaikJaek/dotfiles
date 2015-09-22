@@ -26,11 +26,15 @@ alias hosts="sudo $EDITOR /etc/hosts"
 # Directories
 alias code="~/Development/"
 alias projects="~/Development/projects"
+alias github="~/Development/github"
 alias prototyping="~/Development/prototyping"
 alias libs="cd ~/Development/libs"
 alias dotfiles="cd ~/.dotfiles/"
 alias desktop="cd ~/Desktop"
 alias downloads="cd ~/Downloads"
+
+# Spring helper
+alias spring-boot="mvn clean spring-boot:run"
 
 # Helper
 alias dots="$EDITOR ~/.dotfiles"
