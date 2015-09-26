@@ -17,7 +17,7 @@ alias docker_ip='docker-machine ip '
 alias docker_stop_all='docker stop $(docker ps -a -q)'
 alias docker_remove_all='docker stop $(docker ps -a -q)'
 
-alias docker_machine_create_local='docker-machine create --virtualbox-memory "8192" --driver virtualbox '
+alias docker_machine_create_local='docker-machine create --virtualbox-memory "2048" --driver virtualbox '
 alias docker_machine_create_do='docker-machine create --driver digitalocean --digitalocean-access-token=$DIGITALOCEAN_ACCESS_TOKEN --digitalocean-region fra1 --digitalocean-size 2gb '
 
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
