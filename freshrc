@@ -6,6 +6,7 @@ fresh freshshell/fresh bin/fresh --bin=~/.bin/fresh
 
 fresh gitconfig --file
 fresh zshrc --file
+fresh inputrc --file
 fresh vimrc --file
 
 # shell

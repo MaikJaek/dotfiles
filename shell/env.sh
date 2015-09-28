@@ -8,3 +8,4 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
 # use home .bin folder
 export PATH="~/.bin:$PATH"
+
