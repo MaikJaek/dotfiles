@@ -7,7 +7,6 @@ brew 'zsh-syntax-highlighting'
 brew 'nmap'
 brew 'unrar'
 brew 'wget'
-brew 'gulp'
 
 # ruby
 brew 'rbenv'
@@ -20,16 +19,18 @@ brew 'coreutils'
 brew 'ansible'
 brew 'fig'
 
-# bin
+# things
 brew 'node'
 brew 'npm'
 brew 'packer'
+brew 'redis'
 
 # casks
 brew 'caskroom/cask/brew-cask'
 brew 'brew-cask'
 
 # apps
+cask 'gulp'
 cask 'google-chrome'
 cask '1password'
 cask 'iterm2'
